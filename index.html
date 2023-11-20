@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/images/favicon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/data.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,400;1,6..12,500&family=Poppins:wght@300;400;500;600;700;800&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;900&display=swap"
+        rel="stylesheet">
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./src/images/Logo.svg" id="image-logo" alt="Logo do Pokemon, escrito Pokemon na cor branca"
+            tabindex="0">
+    </header>
+
+    <section class="content">
+
+        <div class="search-area">
+            <input type="text" placeholder="Pesquise o nome do Pokemon aqui" id="search-input" aria-label="Campo de pesquisa de Pokémon">
+            <button class="button-search">
+        <img src="./src/images/Vector (1).svg" 
+        alt="Icone De Pesquisar, ao clicar ou apertar enter ele vai buscar o pokemon" 
+        value="Botão para pesquisar">
+</button>
+        </div>
+
+
+        <div class="cards">
+
+        </div>
+
+        <div class="details-poke">
+            <div class="details-content" tabindex="0">
+                <div class="image">
+                    <img src="" alt="" class="imagem-pokemon" tabindex="0">
+                </div>
+
+                <div class="content-text">
+                    <div class="text-important">
+                        <h1 class="name-pokemon" tabindex="0"></h1>
+                        <img src="./src/images/closeIcon.svg" id="icon-exit" tabindex="0" alt="Botão em formato de X para fechar os detalhes do pokemon" title="Fechar">
+                    </div>
+
+                    <div class="details">
+                        <div class="height">
+                            <p tabindex="0">Height</p>
+                            <p class="height-p" tabindex="0"></p>
+                        </div>
+                        <div class="type-text">
+                            <p tabindex="0">Type</p>
+                            <p class="type-p" tabindex="0"></p>
+                        </div>
+                    </div>
+
+                    <div class="abilities">
+                        <p tabindex="0">Abilities</p>
+                        <p class="abilities-text" tabindex="0">
+
+                        </p>
+                    </div>
+
+                    <div class="circles">
+                        <div class="circle">
+                            <div class="rad">
+                                <p class="defense-text" tabindex="0"></p>
+                            </div>
+
+                            <p tabindex="0">Defense</p>
+                        </div>
+
+
+                        <div class="circle">
+                            <div class="rad">
+                                <p class="attack-text" tabindex="0"></p>
+                            </div>
+
+                            <p tabindex="0">Attack</p>
+                        </div>
+
+
+                        <div class="circle">
+                            <div class="rad">
+                                <p class="sp-text" tabindex="0"></p>
+                            </div>
+
+                            <p tabindex="0">Sp Atk</p>
+                        </div>
+
+
+                        <div class="circle">
+                            <div class="rad">
+                                <p class="df-text" tabindex="0"></p>
+                            </div>
+
+                            <p tabindex="0">Sp Df</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script defer src="./src/scripts/script.js"></script>
+</body>
+
+</html>
